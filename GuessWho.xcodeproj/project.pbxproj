@@ -8,16 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		E8B36BA222EF64D7002BCCE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B36BA122EF64D7002BCCE8 /* AppDelegate.swift */; };
-		E8B36BA422EF64D7002BCCE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B36BA322EF64D7002BCCE8 /* ViewController.swift */; };
 		E8B36BA722EF64D7002BCCE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B36BA522EF64D7002BCCE8 /* Main.storyboard */; };
 		E8B36BA922EF64D8002BCCE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B36BA822EF64D8002BCCE8 /* Assets.xcassets */; };
 		E8B36BAC22EF64D8002BCCE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B36BAA22EF64D8002BCCE8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E85D3A8F22EFBBBA0072E286 /* RoundedMplus1c-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoundedMplus1c-Medium.ttf"; sourceTree = "<group>"; };
+		E85D3A9022EFBBBA0072E286 /* RoundedMplus1c-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoundedMplus1c-Bold.ttf"; sourceTree = "<group>"; };
+		E85D3A9122EFBBBA0072E286 /* RoundedMplus1c-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoundedMplus1c-Regular.ttf"; sourceTree = "<group>"; };
+		E85D3A9222EFBBBA0072E286 /* RoundedMplus1c2-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoundedMplus1c2-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E85D3A9322EFBBBB0072E286 /* RoundedMplus1c-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoundedMplus1c-Light.ttf"; sourceTree = "<group>"; };
+		E85D3A9422EFBBFB0072E286 /* RoundedMplus1c-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RoundedMplus1c-Thin.ttf"; path = "../../../../../../../../Downloads/Rounded-Mplus-1c/roundedmplus1c/RoundedMplus1c-Thin.ttf"; sourceTree = "<group>"; };
+		E85D3A9522EFBC0A0072E286 /* RoundedMplus1c-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RoundedMplus1c-Black.ttf"; path = "../../../../../../../../Downloads/Rounded-Mplus-1c/roundedmplus1c/RoundedMplus1c-Black.ttf"; sourceTree = "<group>"; };
 		E8B36B9E22EF64D7002BCCE8 /* GuessWho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessWho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B36BA122EF64D7002BCCE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E8B36BA322EF64D7002BCCE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8B36BA622EF64D7002BCCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8B36BA822EF64D8002BCCE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8B36BAB22EF64D8002BCCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +40,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E85D3A8822EFA2070072E286 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				E8B36BA522EF64D7002BCCE8 /* Main.storyboard */,
+				E8B36BA822EF64D8002BCCE8 /* Assets.xcassets */,
+				E8B36BAA22EF64D8002BCCE8 /* LaunchScreen.storyboard */,
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
+		E85D3A8E22EFBB890072E286 /* RoundedMplus1c */ = {
+			isa = PBXGroup;
+			children = (
+				E85D3A9122EFBBBA0072E286 /* RoundedMplus1c-Regular.ttf */,
+				E85D3A9422EFBBFB0072E286 /* RoundedMplus1c-Thin.ttf */,
+				E85D3A9222EFBBBA0072E286 /* RoundedMplus1c2-ExtraBold.ttf */,
+				E85D3A8F22EFBBBA0072E286 /* RoundedMplus1c-Medium.ttf */,
+				E85D3A9522EFBC0A0072E286 /* RoundedMplus1c-Black.ttf */,
+				E85D3A9322EFBBBB0072E286 /* RoundedMplus1c-Light.ttf */,
+				E85D3A9022EFBBBA0072E286 /* RoundedMplus1c-Bold.ttf */,
+			);
+			path = RoundedMplus1c;
+			sourceTree = "<group>";
+		};
 		E8B36B9522EF64D7002BCCE8 = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				E8B36BA122EF64D7002BCCE8 /* AppDelegate.swift */,
-				E8B36BA322EF64D7002BCCE8 /* ViewController.swift */,
-				E8B36BA522EF64D7002BCCE8 /* Main.storyboard */,
-				E8B36BA822EF64D8002BCCE8 /* Assets.xcassets */,
-				E8B36BAA22EF64D8002BCCE8 /* LaunchScreen.storyboard */,
+				E85D3A8822EFA2070072E286 /* Recources */,
 				E8B36BAD22EF64D8002BCCE8 /* Info.plist */,
+				E85D3A8E22EFBB890072E286 /* RoundedMplus1c */,
 			);
 			path = GuessWho;
 			sourceTree = "<group>";
@@ -135,7 +162,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8B36BA422EF64D7002BCCE8 /* ViewController.swift in Sources */,
 				E8B36BA222EF64D7002BCCE8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
