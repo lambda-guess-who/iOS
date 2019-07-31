@@ -1,25 +1,32 @@
 //
-//  PasswordViewController.swift
+//  GameOverViewController.swift
 //  GuessWho
 //
-//  Created by Steven Leyva on 7/30/19.
+//  Created by Steven Leyva on 7/31/19.
 //  Copyright © 2019 Lambda School. All rights reserved.
 //
 
 import UIKit
 
-class PasswordViewController: UIViewController {
+class GameOverViewController: UIViewController {
     
-    @IBOutlet weak var passwordTextField: UITextField!
     
-
+    @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet weak var catagoryLabel: UILabel!
+    @IBOutlet weak var funnyNoteLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
+    @IBAction func playAgainTapped(_ sender: Any) {
+    }
 
+    @IBAction func sharedButtonTapped(_ sender: Any) {
+    }
+    
+    
     /*
     // MARK: - Navigation
 

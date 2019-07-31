@@ -13,11 +13,11 @@
 		E8B36BAC22EF64D8002BCCE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B36BAA22EF64D8002BCCE8 /* LaunchScreen.storyboard */; };
 		E8DF2F3222F100FB00C868B7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF2F3122F100FB00C868B7 /* LoginViewController.swift */; };
 		E8DF2F3422F1014400C868B7 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF2F3322F1014400C868B7 /* EmailViewController.swift */; };
-		E8DF2F3622F1017100C868B7 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF2F3522F1017100C868B7 /* PasswordViewController.swift */; };
 		E8DF2F3822F101A000C868B7 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF2F3722F101A000C868B7 /* DashboardViewController.swift */; };
 		E8DF2F3A22F101D200C868B7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF2F3922F101D200C868B7 /* SettingsViewController.swift */; };
 		E8DF2F3C22F1020000C868B7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF2F3B22F1020000C868B7 /* ProfileViewController.swift */; };
 		E8DF2F3E22F1FF9C00C868B7 /* MainGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF2F3D22F1FF9C00C868B7 /* MainGameViewController.swift */; };
+		E8DF2F4022F24BD400C868B7 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF2F3F22F24BD300C868B7 /* GameOverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,11 +36,11 @@
 		E8B36BAD22EF64D8002BCCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8DF2F3122F100FB00C868B7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E8DF2F3322F1014400C868B7 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
-		E8DF2F3522F1017100C868B7 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		E8DF2F3722F101A000C868B7 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		E8DF2F3922F101D200C868B7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E8DF2F3B22F1020000C868B7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E8DF2F3D22F1FF9C00C868B7 /* MainGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameViewController.swift; sourceTree = "<group>"; };
+		E8DF2F3F22F24BD300C868B7 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +111,11 @@
 			children = (
 				E8DF2F3122F100FB00C868B7 /* LoginViewController.swift */,
 				E8DF2F3322F1014400C868B7 /* EmailViewController.swift */,
-				E8DF2F3522F1017100C868B7 /* PasswordViewController.swift */,
 				E8DF2F3722F101A000C868B7 /* DashboardViewController.swift */,
 				E8DF2F3B22F1020000C868B7 /* ProfileViewController.swift */,
 				E8DF2F3922F101D200C868B7 /* SettingsViewController.swift */,
 				E8DF2F3D22F1FF9C00C868B7 /* MainGameViewController.swift */,
+				E8DF2F3F22F24BD300C868B7 /* GameOverViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -192,10 +192,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8DF2F3222F100FB00C868B7 /* LoginViewController.swift in Sources */,
-				E8DF2F3622F1017100C868B7 /* PasswordViewController.swift in Sources */,
 				E8DF2F3822F101A000C868B7 /* DashboardViewController.swift in Sources */,
 				E8DF2F3422F1014400C868B7 /* EmailViewController.swift in Sources */,
 				E8DF2F3C22F1020000C868B7 /* ProfileViewController.swift in Sources */,
+				E8DF2F4022F24BD400C868B7 /* GameOverViewController.swift in Sources */,
 				E8DF2F3E22F1FF9C00C868B7 /* MainGameViewController.swift in Sources */,
 				E8B36BA222EF64D7002BCCE8 /* AppDelegate.swift in Sources */,
 				E8DF2F3A22F101D200C868B7 /* SettingsViewController.swift in Sources */,
