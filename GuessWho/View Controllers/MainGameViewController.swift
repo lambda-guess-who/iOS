@@ -12,6 +12,7 @@ class MainGameViewController: UIViewController {
     
     @IBOutlet weak var catagoriesLabel: UILabel!
     @IBOutlet weak var twitterTextView: UITextView!
+    @IBOutlet weak var timeandDateLabel: UILabel!
     @IBOutlet weak var userName1Label: UILabel!
     @IBOutlet weak var userName2Label: UILabel!
     @IBOutlet weak var userName3Label: UILabel!
@@ -19,9 +20,9 @@ class MainGameViewController: UIViewController {
     @IBOutlet weak var twitterHandler2Label: UILabel!
     @IBOutlet weak var twitterHandler3Label: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
-    @IBOutlet weak var commentLabel: UILabel!
-    @IBOutlet weak var retweetLabel: UILabel!
-    @IBOutlet weak var likeLabel: UILabel!
+    @IBOutlet weak var commentCountLabel: UILabel!
+    @IBOutlet weak var retweetCountLabel: UILabel!
+    @IBOutlet weak var likeCountLabel: UILabel!
     @IBOutlet weak var picture1Image: UIImageView!
     @IBOutlet weak var picture2Image: UIImageView!
     @IBOutlet weak var picture3Image: UIImageView!

@@ -10,6 +10,12 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
+    @IBOutlet weak var twitterTextView: UITextView!
+    @IBOutlet weak var timeandDateLabel: UILabel!
+    @IBOutlet weak var commentCountLabel: UILabel!
+    @IBOutlet weak var retweetCountLabel: UILabel!
+    @IBOutlet weak var likeCountLabel: UILabel!
+    
     
 
     override func viewDidLoad() {

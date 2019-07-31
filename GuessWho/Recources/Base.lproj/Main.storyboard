@@ -140,6 +140,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6TQ-y4-haK"/>
                     </view>
+                    <connections>
+                        <outlet property="commentCountLabel" destination="NJa-tV-IXb" id="sak-qi-d0Y"/>
+                        <outlet property="likeCountLabel" destination="Ebm-8Q-uJG" id="Ey4-iB-R9R"/>
+                        <outlet property="retweetCountLabel" destination="ZS5-sN-4Lc" id="308-9K-VN8"/>
+                        <outlet property="timeandDateLabel" destination="TrU-3X-fjK" id="R6v-Za-8AR"/>
+                        <outlet property="twitterTextView" destination="W6x-IG-740" id="ya5-qs-lrT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0rv-kB-9M2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -725,6 +732,7 @@ when you invite a friend</string>
                                 <state key="normal" image="close_24px"/>
                                 <connections>
                                     <action selector="closeButton:" destination="EHV-D5-ukY" eventType="touchUpInside" id="og7-sW-bCv"/>
+                                    <segue destination="0qd-gr-mTw" kind="show" id="OQd-US-Sri"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Oval" translatesAutoresizingMaskIntoConstraints="NO" id="KVZ-G8-xkT">
@@ -797,13 +805,14 @@ when you invite a friend</string>
                     </view>
                     <connections>
                         <outlet property="catagoriesLabel" destination="tG7-49-JgI" id="BW0-Ay-Ffc"/>
-                        <outlet property="commentLabel" destination="Ihv-Ws-pRb" id="6JG-Qz-4ob"/>
-                        <outlet property="likeLabel" destination="Obx-aR-f4L" id="A3V-e4-Dq5"/>
+                        <outlet property="commentCountLabel" destination="Ihv-Ws-pRb" id="dfT-7Y-r1Z"/>
+                        <outlet property="likeCountLabel" destination="Obx-aR-f4L" id="lS3-b4-vjE"/>
                         <outlet property="picture1Image" destination="th0-XQ-zlu" id="8DS-Au-H5h"/>
                         <outlet property="picture2Image" destination="6Uq-Lz-knC" id="g2v-EK-qgD"/>
                         <outlet property="picture3Image" destination="KVZ-G8-xkT" id="4xf-Vg-Y2T"/>
-                        <outlet property="retweetLabel" destination="9gB-Hk-wt4" id="5Ja-Jo-sbb"/>
+                        <outlet property="retweetCountLabel" destination="9gB-Hk-wt4" id="3Df-Bn-Aik"/>
                         <outlet property="scoreLabel" destination="Ldn-UD-0yX" id="FbM-I9-R8U"/>
+                        <outlet property="timeandDateLabel" destination="UDp-0Z-Za8" id="GzA-PG-bwW"/>
                         <outlet property="twitterHandler1Label" destination="OLW-Eh-2IO" id="Z8H-Ew-wCT"/>
                         <outlet property="twitterHandler2Label" destination="p4e-hV-Enb" id="eCQ-yx-vUW"/>
                         <outlet property="twitterHandler3Label" destination="9mX-zG-8zM" id="77K-Fa-Dgb"/>
