@@ -39,14 +39,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ZD-hc-QE6">
-                                <rect key="frame" x="104" y="585" width="206" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="Twitter Button"/>
-                                <connections>
-                                    <action selector="twitterConnectTapped:" destination="MO9-gb-lP4" eventType="touchUpInside" id="gWM-he-rAj"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Border" translatesAutoresizingMaskIntoConstraints="NO" id="DTa-Ge-wqF">
                                 <rect key="frame" x="104" y="643" width="205" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -77,7 +69,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Guess Who" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IlY-w5-OeA">
                                 <rect key="frame" x="80" y="178" width="253" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RoundedMplus1c-ExtraBold" family="Rounded Mplus 1c" pointSize="45"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Black" family="Rounded Mplus 1c" pointSize="45"/>
                                 <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -85,6 +77,65 @@
                                 <rect key="frame" x="29" y="362" width="356" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ORA-lT-rgX">
+                                <rect key="frame" x="289" y="545" width="74" height="25.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Heart" translatesAutoresizingMaskIntoConstraints="NO" id="dGF-q2-YBc">
+                                        <rect key="frame" x="0.0" y="0.0" width="13.5" height="25.5"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24.5k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ebm-8Q-uJG">
+                                        <rect key="frame" x="21.5" y="0.0" width="52.5" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="RoundedMplus1c-ExtraBold" family="Rounded Mplus 1c" pointSize="18"/>
+                                        <color key="textColor" red="0.39547649330000001" green="0.66301695120000004" blue="0.83993891430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="0V7-Eu-tTD">
+                                <rect key="frame" x="167" y="545" width="78.5" height="25.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="retweet" translatesAutoresizingMaskIntoConstraints="NO" id="UOb-wP-B2e">
+                                        <rect key="frame" x="0.0" y="0.0" width="16" height="25.5"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.3k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZS5-sN-4Lc">
+                                        <rect key="frame" x="26" y="0.0" width="52.5" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="RoundedMplus1c-ExtraBold" family="Rounded Mplus 1c" pointSize="18"/>
+                                        <color key="textColor" red="0.39547649330000001" green="0.66301695120000004" blue="0.83993891430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WDn-yd-A75">
+                                <rect key="frame" x="49" y="545" width="62" height="25.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="speech" translatesAutoresizingMaskIntoConstraints="NO" id="NuK-BV-wXE">
+                                        <rect key="frame" x="0.0" y="0.0" width="13.5" height="25.500000000000004"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.1k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJa-tV-IXb">
+                                        <rect key="frame" x="21.5" y="0.0" width="40.5" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="RoundedMplus1c-ExtraBold" family="Rounded Mplus 1c" pointSize="18"/>
+                                        <color key="textColor" red="0.39547649330000001" green="0.66301695120000004" blue="0.83993891430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Twitter Post" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="W6x-IG-740">
+                                <rect key="frame" x="49" y="407" width="314" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Medium" family="Rounded Mplus 1c" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="04:29 AM - Jan 04, 2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TrU-3X-fjK">
+                                <rect key="frame" x="49" y="526" width="144" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Medium" family="Rounded Mplus 1c" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6TQ-y4-haK"/>
@@ -92,7 +143,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0rv-kB-9M2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-562" y="252"/>
+            <point key="canvasLocation" x="-1364" y="252"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="e49-J7-oUN">
@@ -102,14 +153,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="Okk-Bo-rKQ">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G76-Xa-cdm">
                                 <rect key="frame" x="31" y="66" width="25" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="icons8-back-100 copy"/>
+                                <connections>
+                                    <segue destination="0qd-gr-mTw" kind="show" id="fI5-2K-QlB"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpe-Zv-tIL">
                                 <rect key="frame" x="146" y="58" width="122" height="49"/>
@@ -175,6 +225,10 @@ when you inivte a friend</string>
                                     <action selector="logoutTapped:" destination="GJS-xc-toQ" eventType="touchUpInside" id="mtD-4U-awf"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="Okk-Bo-rKQ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="0IR-MW-5z7"/>
@@ -187,7 +241,7 @@ when you inivte a friend</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mmq-QS-4dk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2078" y="-328"/>
+            <point key="canvasLocation" x="2245" y="-152"/>
         </scene>
         <!--Dashboard View Controller-->
         <scene sceneID="cCb-Aj-Ldu">
@@ -207,6 +261,7 @@ when you inivte a friend</string>
                                 <state key="normal" backgroundImage="Blue Catagory"/>
                                 <connections>
                                     <action selector="presidentialCandidatesTapped:" destination="0qd-gr-mTw" eventType="touchUpInside" id="cDf-fh-6HF"/>
+                                    <segue destination="EHV-D5-ukY" kind="show" id="YiZ-w9-5Ow"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvs-g3-rg9" userLabel="Invite Friends Button">
@@ -440,6 +495,9 @@ when you invite a friend</string>
                                 <rect key="frame" x="48" y="69" width="25" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="icons8-back-100 copy"/>
+                                <connections>
+                                    <segue destination="0qd-gr-mTw" kind="show" id="0IA-oM-gDn"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8KU-4O-7x6">
                                 <rect key="frame" x="140" y="64" width="134" height="42"/>
@@ -531,22 +589,268 @@ when you invite a friend</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AM6-2w-gGr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2098.5507246376815" y="707.8125"/>
+            <point key="canvasLocation" x="2277" y="772"/>
         </scene>
-        <!--View Controller-->
+        <!--Main Game View Controller-->
         <scene sceneID="WYf-x8-Rm2">
             <objects>
-                <viewController id="EHV-D5-ukY" sceneMemberID="viewController">
+                <viewController id="EHV-D5-ukY" customClass="MainGameViewController" customModule="GuessWho" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K1a-Oe-gBj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="cmW-t8-CVM">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Catagory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7p-Qu-QW8">
+                                <rect key="frame" x="141" y="44" width="132" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Black" family="Rounded Mplus 1c" pointSize="28"/>
+                                <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Presidential Candidates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tG7-49-JgI">
+                                <rect key="frame" x="113" y="92" width="189" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Regular" family="Rounded Mplus 1c" pointSize="17"/>
+                                <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Twitter Rectangle Catagories" translatesAutoresizingMaskIntoConstraints="NO" id="5FF-MA-stY">
+                                <rect key="frame" x="20" y="143" width="374" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="twitter - white" translatesAutoresizingMaskIntoConstraints="NO" id="vTP-re-8d8">
+                                <rect key="frame" x="68" y="414" width="38" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Who tweeted It ?!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ts4-pi-fn6">
+                                <rect key="frame" x="114" y="424" width="186" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Black" family="Rounded Mplus 1c" pointSize="20"/>
+                                <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzw-Cp-RH8">
+                                <rect key="frame" x="37" y="460" width="341" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Main Game Rectangle"/>
+                                <connections>
+                                    <action selector="choice1Tapped:" destination="EHV-D5-ukY" eventType="touchUpInside" id="HmX-N1-Ffg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVA-br-7sf">
+                                <rect key="frame" x="37" y="545" width="341" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Main Game Rectangle"/>
+                                <connections>
+                                    <action selector="choice2Tapped:" destination="EHV-D5-ukY" eventType="touchUpInside" id="eVN-Qc-b5p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4NT-dn-Ppi">
+                                <rect key="frame" x="37" y="630" width="341" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Main Game Rectangle"/>
+                                <connections>
+                                    <action selector="choice3Tapped:" destination="EHV-D5-ukY" eventType="touchUpInside" id="4dh-D5-z8R"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ldn-UD-0yX">
+                                <rect key="frame" x="194" y="751" width="27" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Black" family="Rounded Mplus 1c" pointSize="40"/>
+                                <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fE-wt-dBT">
+                                <rect key="frame" x="164" y="815" width="86" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Black" family="Rounded Mplus 1c" pointSize="30"/>
+                                <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UserName1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgV-pR-fbd">
+                                <rect key="frame" x="128" y="471" width="116" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Black" family="Rounded Mplus 1c" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UserName2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJn-wP-syo">
+                                <rect key="frame" x="128" y="559" width="116" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Black" family="Rounded Mplus 1c" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UserName3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5B-FF-wxD">
+                                <rect key="frame" x="128" y="642" width="116" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Black" family="Rounded Mplus 1c" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@TwitterUserHandle1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLW-Eh-2IO">
+                                <rect key="frame" x="128" y="499" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@TwitterUserHandle2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4e-hV-Enb">
+                                <rect key="frame" x="128" y="586" width="168" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@TwitterUserHandle3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9mX-zG-8zM">
+                                <rect key="frame" x="128" y="668" width="169" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Twitter Post" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DB0-Ix-pL5">
+                                <rect key="frame" x="37" y="165" width="341" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Medium" family="Rounded Mplus 1c" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Esf-uv-mLg">
+                                <rect key="frame" x="337" y="39" width="41" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="close_24px"/>
+                                <connections>
+                                    <action selector="closeButton:" destination="EHV-D5-ukY" eventType="touchUpInside" id="og7-sW-bCv"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Oval" translatesAutoresizingMaskIntoConstraints="NO" id="KVZ-G8-xkT">
+                                <rect key="frame" x="56" y="640" width="63" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Oval" translatesAutoresizingMaskIntoConstraints="NO" id="6Uq-Lz-knC">
+                                <rect key="frame" x="56" y="555" width="63" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Oval" translatesAutoresizingMaskIntoConstraints="NO" id="th0-XQ-zlu">
+                                <rect key="frame" x="56" y="470" width="63" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="02Q-ge-aSP">
+                                <rect key="frame" x="297" y="350" width="74" height="25.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Heart" translatesAutoresizingMaskIntoConstraints="NO" id="axC-KA-GI3">
+                                        <rect key="frame" x="0.0" y="0.0" width="13.5" height="25.5"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24.5k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Obx-aR-f4L">
+                                        <rect key="frame" x="21.5" y="0.0" width="52.5" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="RoundedMplus1c-ExtraBold" family="Rounded Mplus 1c" pointSize="18"/>
+                                        <color key="textColor" red="0.39547649330000001" green="0.66301695120000004" blue="0.83993891430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Gqu-6y-Ico">
+                                <rect key="frame" x="56" y="350" width="62" height="25.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="speech" translatesAutoresizingMaskIntoConstraints="NO" id="7K1-Aa-j0b">
+                                        <rect key="frame" x="0.0" y="0.0" width="13.5" height="25.500000000000004"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.1k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ihv-Ws-pRb">
+                                        <rect key="frame" x="21.5" y="0.0" width="40.5" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="RoundedMplus1c-ExtraBold" family="Rounded Mplus 1c" pointSize="18"/>
+                                        <color key="textColor" red="0.39547649328082196" green="0.66301695123698623" blue="0.83993891430684942" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="04:29 AM - Jan 04, 2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UDp-0Z-Za8">
+                                <rect key="frame" x="37" y="321" width="144" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Medium" family="Rounded Mplus 1c" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="quD-jG-n0t">
+                                <rect key="frame" x="168" y="350" width="78.5" height="25.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="retweet" translatesAutoresizingMaskIntoConstraints="NO" id="Ooj-QG-3rl">
+                                        <rect key="frame" x="0.0" y="0.0" width="16" height="25.5"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.3k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gB-Hk-wt4">
+                                        <rect key="frame" x="26" y="0.0" width="52.5" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="RoundedMplus1c-ExtraBold" family="Rounded Mplus 1c" pointSize="18"/>
+                                        <color key="textColor" red="0.39547649330000001" green="0.66301695120000004" blue="0.83993891430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qPI-hn-foA"/>
                     </view>
+                    <connections>
+                        <outlet property="catagoriesLabel" destination="tG7-49-JgI" id="BW0-Ay-Ffc"/>
+                        <outlet property="commentLabel" destination="Ihv-Ws-pRb" id="6JG-Qz-4ob"/>
+                        <outlet property="likeLabel" destination="Obx-aR-f4L" id="A3V-e4-Dq5"/>
+                        <outlet property="picture1Image" destination="th0-XQ-zlu" id="8DS-Au-H5h"/>
+                        <outlet property="picture2Image" destination="6Uq-Lz-knC" id="g2v-EK-qgD"/>
+                        <outlet property="picture3Image" destination="KVZ-G8-xkT" id="4xf-Vg-Y2T"/>
+                        <outlet property="retweetLabel" destination="9gB-Hk-wt4" id="5Ja-Jo-sbb"/>
+                        <outlet property="scoreLabel" destination="Ldn-UD-0yX" id="FbM-I9-R8U"/>
+                        <outlet property="twitterHandler1Label" destination="OLW-Eh-2IO" id="Z8H-Ew-wCT"/>
+                        <outlet property="twitterHandler2Label" destination="p4e-hV-Enb" id="eCQ-yx-vUW"/>
+                        <outlet property="twitterHandler3Label" destination="9mX-zG-8zM" id="77K-Fa-Dgb"/>
+                        <outlet property="twitterTextView" destination="DB0-Ix-pL5" id="nMV-xP-a7P"/>
+                        <outlet property="userName1Label" destination="hgV-pR-fbd" id="xYa-qD-bSN"/>
+                        <outlet property="userName2Label" destination="XJn-wP-syo" id="Fny-A1-vCH"/>
+                        <outlet property="userName3Label" destination="m5B-FF-wxD" id="QPv-Lv-cBd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YA1-iT-YwP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3242" y="252"/>
+            <point key="canvasLocation" x="3208.6956521739135" y="251.78571428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2Ci-av-13P">
+            <objects>
+                <viewController id="KCD-Gw-lep" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LU5-eK-uH5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="oQI-x6-LQO">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Catagory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ck-eN-d9v">
+                                <rect key="frame" x="141" y="44" width="132" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Black" family="Rounded Mplus 1c" pointSize="28"/>
+                                <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Presidential Candidates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOa-HQ-Jia">
+                                <rect key="frame" x="113" y="92" width="189" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Regular" family="Rounded Mplus 1c" pointSize="17"/>
+                                <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="1pB-tM-d1I"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QeR-bm-k8T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4097" y="252"/>
         </scene>
         <!--Guess Who-->
         <scene sceneID="tdT-e5-BRn">
@@ -617,7 +921,7 @@ when you invite a friend</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LNb-m7-lp2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-562" y="1027"/>
+            <point key="canvasLocation" x="-488" y="252"/>
         </scene>
         <!--Password View Controller-->
         <scene sceneID="5ZK-1t-GML">
@@ -681,7 +985,7 @@ when you invite a friend</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zQY-Cp-kEU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="296" y="1027"/>
+            <point key="canvasLocation" x="384" y="252"/>
         </scene>
     </scenes>
     <resources>
@@ -690,11 +994,13 @@ when you invite a friend</string>
         <image name="Ellipse" width="56" height="56"/>
         <image name="Green Catagory" width="319" height="72"/>
         <image name="Green Catagory-1" width="319" height="72"/>
+        <image name="Heart" width="13.333333015441895" height="12.333333015441895"/>
         <image name="Invite Button Purple" width="231.33332824707031" height="52"/>
         <image name="Invite Friends Button" width="166.66667175292969" height="38.666667938232422"/>
         <image name="Lock" width="12" height="14.666666984558105"/>
         <image name="Login Rectangle" width="138" height="32"/>
         <image name="Logout Button" width="166.66667175292969" height="38.666667938232422"/>
+        <image name="Main Game Rectangle" width="341" height="77"/>
         <image name="More Catagories" width="169" height="38"/>
         <image name="Note Music" width="22.333333969116211" height="24.666666030883789"/>
         <image name="Orange Catagory" width="319" height="72"/>
@@ -704,15 +1010,19 @@ when you invite a friend</string>
         <image name="Settings" width="29.333333969116211" height="29.666666030883789"/>
         <image name="Settings Buttons" width="275" height="71"/>
         <image name="Sound" width="24.333333969116211" height="21"/>
-        <image name="Twitter Button" width="137.33332824707031" height="33.333332061767578"/>
         <image name="Twitter Rectangle" width="345" height="179"/>
+        <image name="Twitter Rectangle Catagories" width="341" height="229"/>
+        <image name="close_24px" width="18" height="18"/>
         <image name="icons8-back-100 copy" width="166.66667175292969" height="271"/>
         <image name="people 2" width="88" height="82"/>
+        <image name="retweet" width="16" height="9.3333330154418945"/>
+        <image name="speech" width="13.333333015441895" height="14.333333015441895"/>
         <image name="twitter - white" width="34.666667938232422" height="29.333333969116211"/>
         <image name="wallpaper" width="276" height="597.33331298828125"/>
         <image name="" width="22" height="27"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="SBd-sz-APQ"/>
+        <segue reference="J8f-EM-lQq"/>
+        <segue reference="Qrl-d4-o9N"/>
     </inferredMetricsTieBreakers>
 </document>
