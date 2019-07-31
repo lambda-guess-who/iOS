@@ -14,6 +14,8 @@ class GameOverViewController: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var catagoryLabel: UILabel!
     @IBOutlet weak var funnyNoteLabel: UILabel!
+    @IBOutlet weak var twitterHandlerLabel: UILabel!
+    @IBOutlet weak var profileImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

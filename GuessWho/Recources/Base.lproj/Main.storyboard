@@ -942,7 +942,9 @@ for you?</string>
                     <connections>
                         <outlet property="catagoryLabel" destination="AOa-HQ-Jia" id="bL3-xY-S1t"/>
                         <outlet property="funnyNoteLabel" destination="JCk-GA-CuO" id="onu-8l-0Eg"/>
+                        <outlet property="profileImageView" destination="clo-8k-VQY" id="PNy-Pi-BpQ"/>
                         <outlet property="scoreLabel" destination="ePM-MM-QwP" id="3vu-x8-eUd"/>
+                        <outlet property="twitterHandlerLabel" destination="cac-ZJ-OFy" id="yqa-sV-D7y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QeR-bm-k8T" userLabel="First Responder" sceneMemberID="firstResponder"/>
