@@ -27,10 +27,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="5nc-ve-gSV">
             <objects>
-                <viewController id="MO9-gb-lP4" sceneMemberID="viewController">
+                <viewController id="MO9-gb-lP4" customClass="LoginViewController" customModule="GuessWho" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wGI-UO-xEl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,6 +43,9 @@
                                 <rect key="frame" x="104" y="585" width="206" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Twitter Button"/>
+                                <connections>
+                                    <action selector="twitterConnectTapped:" destination="MO9-gb-lP4" eventType="touchUpInside" id="gWM-he-rAj"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Border" translatesAutoresizingMaskIntoConstraints="NO" id="DTa-Ge-wqF">
                                 <rect key="frame" x="104" y="643" width="205" height="25"/>
@@ -56,6 +59,7 @@
                                     <color key="titleColor" red="0.92941176470588238" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="signInButtonTapped:" destination="MO9-gb-lP4" eventType="touchUpInside" id="9pz-fi-NTU"/>
                                     <segue destination="Awv-OJ-0Jf" kind="show" id="J8f-EM-lQq"/>
                                 </connections>
                             </button>
@@ -90,10 +94,10 @@
             </objects>
             <point key="canvasLocation" x="-562" y="252"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="e49-J7-oUN">
             <objects>
-                <viewController id="GJS-xc-toQ" sceneMemberID="viewController">
+                <viewController id="GJS-xc-toQ" customClass="ProfileViewController" customModule="GuessWho" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GyM-YQ-yms">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -150,6 +154,9 @@
                                 <rect key="frame" x="60" y="494" width="294" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Invite Friends Button"/>
+                                <connections>
+                                    <action selector="inviteFriendTapped:" destination="GJS-xc-toQ" eventType="touchUpInside" id="lNa-uK-qaf"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rgc-PD-AMz">
                                 <rect key="frame" x="90" y="570" width="235" height="45"/>
@@ -164,20 +171,28 @@ when you inivte a friend</string>
                                 <rect key="frame" x="93" y="809" width="229" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Logout Button"/>
+                                <connections>
+                                    <action selector="logoutTapped:" destination="GJS-xc-toQ" eventType="touchUpInside" id="mtD-4U-awf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="0IR-MW-5z7"/>
                     </view>
+                    <connections>
+                        <outlet property="highScoreLabel" destination="laJ-D4-zfu" id="XJ6-y1-Iyl"/>
+                        <outlet property="twitterHandlerLabel" destination="1LO-7P-T6d" id="XOb-fy-BxR"/>
+                        <outlet property="userNameLabel" destination="AHM-df-sIV" id="faz-cH-Kzb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mmq-QS-4dk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2078" y="-328"/>
         </scene>
-        <!--View Controller-->
+        <!--Dashboard View Controller-->
         <scene sceneID="cCb-Aj-Ldu">
             <objects>
-                <viewController id="0qd-gr-mTw" sceneMemberID="viewController">
+                <viewController id="0qd-gr-mTw" customClass="DashboardViewController" customModule="GuessWho" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xob-Nv-dln">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -186,20 +201,29 @@ when you inivte a friend</string>
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifk-r8-b6P">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifk-r8-b6P" userLabel="Presidential Capitalists Button">
                                 <rect key="frame" x="48" y="163" width="319" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Blue Catagory"/>
+                                <connections>
+                                    <action selector="presidentialCandidatesTapped:" destination="0qd-gr-mTw" eventType="touchUpInside" id="cDf-fh-6HF"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvs-g3-rg9">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvs-g3-rg9" userLabel="Invite Friends Button">
                                 <rect key="frame" x="91" y="764" width="232" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Invite Button Purple"/>
+                                <connections>
+                                    <action selector="inviteFriendsTapped:" destination="0qd-gr-mTw" eventType="touchUpInside" id="H6C-6c-QcT"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q93-ex-zII">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q93-ex-zII" userLabel="Venture Capitalists Button">
                                 <rect key="frame" x="48" y="243" width="319" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Green Catagory-1"/>
+                                <connections>
+                                    <action selector="ventureCapitalistTapped:" destination="0qd-gr-mTw" eventType="touchUpInside" id="ope-GH-K66"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@WhoGonnaWin2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hE1-uJ-WeG">
                                 <rect key="frame" x="137" y="277" width="141" height="20"/>
@@ -208,10 +232,13 @@ when you inivte a friend</string>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXr-gy-FHU">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXr-gy-FHU" userLabel="BasketBall Players Button">
                                 <rect key="frame" x="48" y="323" width="319" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Orange Catagory"/>
+                                <connections>
+                                    <action selector="basketBallPlayersTapped:" destination="0qd-gr-mTw" eventType="touchUpInside" id="BWi-AG-m9R"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@WhoGonnaWin2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPa-BN-GJz">
                                 <rect key="frame" x="137" y="357" width="141" height="20"/>
@@ -227,10 +254,13 @@ when you inivte a friend</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2jP-fm-hOt">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2jP-fm-hOt" userLabel="Youtubers Button">
                                 <rect key="frame" x="48" y="403" width="319" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Rectangle"/>
+                                <connections>
+                                    <action selector="youtubersTapped:" destination="0qd-gr-mTw" eventType="touchUpInside" id="fWR-dF-GuQ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@WhoGonnaWin2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hru-6E-qzv">
                                 <rect key="frame" x="137" y="438" width="141" height="20"/>
@@ -246,10 +276,13 @@ when you inivte a friend</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Cz-7M-lqV">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Cz-7M-lqV" userLabel="More Categories Button">
                                 <rect key="frame" x="123" y="508" width="169" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="More Catagories"/>
+                                <connections>
+                                    <action selector="moreCategoriesTapped:" destination="0qd-gr-mTw" eventType="touchUpInside" id="xQY-y5-PWV"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Guess Who" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H1T-6h-Eat">
                                 <rect key="frame" x="131" y="44" width="153" height="40"/>
@@ -279,20 +312,22 @@ when you inivte a friend</string>
                                 <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U46-ZQ-LBc">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U46-ZQ-LBc" userLabel="Settings Button">
                                 <rect key="frame" x="364" y="49" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" backgroundImage="Settings"/>
                                 <connections>
+                                    <action selector="settingsTapped:" destination="0qd-gr-mTw" eventType="touchUpInside" id="VnM-M3-Rs9"/>
                                     <segue destination="bkO-rq-o6P" kind="show" id="y3t-ry-eQV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Co4-L0-LNu">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Co4-L0-LNu" userLabel="Profile Button">
                                 <rect key="frame" x="20" y="44" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Ellipse"/>
                                 <connections>
+                                    <action selector="profileTapped:" destination="0qd-gr-mTw" eventType="touchUpInside" id="xFd-I7-Zap"/>
                                     <segue destination="GJS-xc-toQ" kind="show" id="Mna-HP-Vn7"/>
                                 </connections>
                             </button>
@@ -380,15 +415,19 @@ when you invite a friend</string>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="XnQ-Nv-5pp"/>
                     </view>
+                    <connections>
+                        <outlet property="highscoreLabel" destination="Asj-lk-s8E" id="uKr-69-VIp"/>
+                        <outlet property="profileButton" destination="Co4-L0-LNu" id="bJI-zf-g6t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0E5-Dx-JXw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1179.7101449275362" y="251.78571428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="7Mi-ae-ja8">
             <objects>
-                <viewController id="bkO-rq-o6P" sceneMemberID="viewController">
+                <viewController id="bkO-rq-o6P" customClass="SettingsViewController" customModule="GuessWho" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OTK-OH-jqf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -409,22 +448,12 @@ when you invite a friend</string>
                                 <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wG4-TW-xqe">
-                                <rect key="frame" x="70" y="147" width="275" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Settings Buttons"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKB-HL-38M">
-                                <rect key="frame" x="70" y="236" width="275" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Settings Buttons"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0Q-vs-xRP">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0Q-vs-xRP" userLabel="User Agreement Button">
                                 <rect key="frame" x="93" y="345" width="229" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Settings Buttons"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UO2-X8-wt0">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UO2-X8-wt0" userLabel="Contact Us Button">
                                 <rect key="frame" x="93" y="414" width="229" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Settings Buttons"/>
@@ -440,10 +469,16 @@ when you invite a friend</string>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cpx-5v-O0z">
                                 <rect key="frame" x="275" y="166" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="musicSwitch:" destination="bkO-rq-o6P" eventType="valueChanged" id="iC7-me-uRS"/>
+                                </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gz9-dW-42y">
                                 <rect key="frame" x="275" y="255" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sfxSwitch:" destination="bkO-rq-o6P" eventType="valueChanged" id="Umu-Gv-vhj"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t3w-0v-Met">
                                 <rect key="frame" x="140" y="163" width="75" height="37"/>
@@ -481,6 +516,14 @@ when you invite a friend</string>
                                 <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Settings Buttons" translatesAutoresizingMaskIntoConstraints="NO" id="tlG-go-m7f">
+                                <rect key="frame" x="70" y="235" width="275" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Settings Buttons" translatesAutoresizingMaskIntoConstraints="NO" id="Xq0-29-BIa">
+                                <rect key="frame" x="70" y="147" width="275" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3qG-Q2-hIr"/>
@@ -490,10 +533,25 @@ when you invite a friend</string>
             </objects>
             <point key="canvasLocation" x="2098.5507246376815" y="707.8125"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="WYf-x8-Rm2">
+            <objects>
+                <viewController id="EHV-D5-ukY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K1a-Oe-gBj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="qPI-hn-foA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YA1-iT-YwP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3242" y="252"/>
+        </scene>
         <!--Guess Who-->
         <scene sceneID="tdT-e5-BRn">
             <objects>
-                <viewController id="Awv-OJ-0Jf" sceneMemberID="viewController">
+                <viewController id="Awv-OJ-0Jf" customClass="EmailViewController" customModule="GuessWho" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kyW-Xf-bm1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -520,6 +578,9 @@ when you invite a friend</string>
                                 <rect key="frame" x="20" y="45" width="25" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="icons8-back-100 copy"/>
+                                <connections>
+                                    <segue destination="MO9-gb-lP4" kind="show" id="FbL-An-w4m"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEw-Sm-8UQ">
                                 <rect key="frame" x="364" y="41" width="30" height="40"/>
@@ -550,15 +611,18 @@ when you invite a friend</string>
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
+                    <connections>
+                        <outlet property="emailTextField" destination="iz6-Xa-RMg" id="QLi-qg-1Tt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LNb-m7-lp2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-562" y="1027"/>
         </scene>
-        <!--View Controller-->
+        <!--Password View Controller-->
         <scene sceneID="5ZK-1t-GML">
             <objects>
-                <viewController id="ceB-eZ-6qr" sceneMemberID="viewController">
+                <viewController id="ceB-eZ-6qr" customClass="PasswordViewController" customModule="GuessWho" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jne-X5-pfk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -596,6 +660,9 @@ when you invite a friend</string>
                                 <rect key="frame" x="20" y="45" width="25" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="icons8-back-100 copy"/>
+                                <connections>
+                                    <segue destination="Awv-OJ-0Jf" kind="show" id="SBd-sz-APQ"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u6T-Wc-IVs">
                                 <rect key="frame" x="51" y="157" width="312" height="64"/>
@@ -608,10 +675,13 @@ when you invite a friend</string>
                         <color key="backgroundColor" red="0.26430970749999999" green="0.26430970749999999" blue="0.26430970749999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="HLw-8l-CF0"/>
                     </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="u6T-Wc-IVs" id="h5j-aC-76Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zQY-Cp-kEU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="391" y="1027"/>
+            <point key="canvasLocation" x="296" y="1027"/>
         </scene>
     </scenes>
     <resources>
@@ -642,4 +712,7 @@ when you invite a friend</string>
         <image name="wallpaper" width="276" height="597.33331298828125"/>
         <image name="" width="22" height="27"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="SBd-sz-APQ"/>
+    </inferredMetricsTieBreakers>
 </document>
