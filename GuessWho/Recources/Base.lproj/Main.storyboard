@@ -40,7 +40,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="twitter - white" translatesAutoresizingMaskIntoConstraints="NO" id="xRi-OW-aCc">
-                                <rect key="frame" x="160" y="336" width="95" height="50"/>
+                                <rect key="frame" x="159" y="328" width="95" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="They Tweeted That?!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bi0-ya-oy1">
@@ -57,79 +57,42 @@
                                 <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Twitter Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="yGd-ao-G9K">
-                                <rect key="frame" x="29" y="362" width="356" height="250"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iz6-Xa-RMg">
+                                <rect key="frame" x="51" y="456" width="312" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ORA-lT-rgX">
-                                <rect key="frame" x="289" y="545" width="74" height="25.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Heart" translatesAutoresizingMaskIntoConstraints="NO" id="dGF-q2-YBc">
-                                        <rect key="frame" x="0.0" y="0.0" width="13.5" height="25.5"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24.5k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ebm-8Q-uJG">
-                                        <rect key="frame" x="21.5" y="0.0" width="52.5" height="25.5"/>
-                                        <fontDescription key="fontDescription" name="RoundedMplus1c-ExtraBold" family="Rounded Mplus 1c" pointSize="18"/>
-                                        <color key="textColor" red="0.39547649330000001" green="0.66301695120000004" blue="0.83993891430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="0V7-Eu-tTD">
-                                <rect key="frame" x="167" y="545" width="78.5" height="25.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="retweet" translatesAutoresizingMaskIntoConstraints="NO" id="UOb-wP-B2e">
-                                        <rect key="frame" x="0.0" y="0.0" width="16" height="25.5"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.3k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZS5-sN-4Lc">
-                                        <rect key="frame" x="26" y="0.0" width="52.5" height="25.5"/>
-                                        <fontDescription key="fontDescription" name="RoundedMplus1c-ExtraBold" family="Rounded Mplus 1c" pointSize="18"/>
-                                        <color key="textColor" red="0.39547649330000001" green="0.66301695120000004" blue="0.83993891430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WDn-yd-A75">
-                                <rect key="frame" x="49" y="545" width="62" height="25.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="speech" translatesAutoresizingMaskIntoConstraints="NO" id="NuK-BV-wXE">
-                                        <rect key="frame" x="0.0" y="0.0" width="13.5" height="25.500000000000004"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.1k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJa-tV-IXb">
-                                        <rect key="frame" x="21.5" y="0.0" width="40.5" height="25.5"/>
-                                        <fontDescription key="fontDescription" name="RoundedMplus1c-ExtraBold" family="Rounded Mplus 1c" pointSize="18"/>
-                                        <color key="textColor" red="0.39547649330000001" green="0.66301695120000004" blue="0.83993891430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Twitter Post" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="W6x-IG-740">
-                                <rect key="frame" x="49" y="407" width="314" height="118"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="RoundedMplus1c-Medium" family="Rounded Mplus 1c" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="04:29 AM - Jan 04, 2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TrU-3X-fjK">
-                                <rect key="frame" x="49" y="526" width="144" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RoundedMplus1c-Medium" family="Rounded Mplus 1c" pointSize="12"/>
                                 <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter your email address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yc-SC-ebU">
+                                <rect key="frame" x="86" y="411" width="243" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Bold" family="Rounded Mplus 1c" pointSize="20"/>
+                                <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DMr-Hd-fcn">
-                                <rect key="frame" x="39" y="620" width="335" height="82"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u6T-Wc-IVs">
+                                <rect key="frame" x="50" y="528" width="312" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RoundedMplus1c-ExtraBold" family="Rounded Mplus 1c" pointSize="25"/>
-                                <state key="normal" title="Sign in with Email Address">
-                                    <color key="titleColor" red="0.92941176470588238" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koF-ZJ-pHX">
+                                <rect key="frame" x="51" y="636" width="148" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="register"/>
                                 <connections>
-                                    <action selector="signInButtonTapped:" destination="MO9-gb-lP4" eventType="touchUpInside" id="9pz-fi-NTU"/>
-                                    <segue destination="Awv-OJ-0Jf" kind="show" id="J8f-EM-lQq"/>
+                                    <action selector="registerButtonTapped:" destination="MO9-gb-lP4" eventType="touchUpInside" id="iLA-h1-ovZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0k-T8-2XO">
+                                <rect key="frame" x="215" y="636" width="148" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Log In"/>
+                                <connections>
+                                    <action selector="loginTapped:" destination="MO9-gb-lP4" eventType="touchUpInside" id="tCn-vc-WIx"/>
+                                    <segue destination="0qd-gr-mTw" kind="show" identifier="ShowDashboardSegue" id="VH6-QE-Ezq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -137,16 +100,13 @@
                         <viewLayoutGuide key="safeArea" id="6TQ-y4-haK"/>
                     </view>
                     <connections>
-                        <outlet property="commentCountLabel" destination="NJa-tV-IXb" id="sak-qi-d0Y"/>
-                        <outlet property="likeCountLabel" destination="Ebm-8Q-uJG" id="Ey4-iB-R9R"/>
-                        <outlet property="retweetCountLabel" destination="ZS5-sN-4Lc" id="308-9K-VN8"/>
-                        <outlet property="timeandDateLabel" destination="TrU-3X-fjK" id="R6v-Za-8AR"/>
-                        <outlet property="twitterTextView" destination="W6x-IG-740" id="ya5-qs-lrT"/>
+                        <outlet property="emailTextField" destination="iz6-Xa-RMg" id="KlE-5O-vZS"/>
+                        <outlet property="passwordTextField" destination="u6T-Wc-IVs" id="sP2-Um-J51"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0rv-kB-9M2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1365.217391304348" y="251.78571428571428"/>
+            <point key="canvasLocation" x="-481.15942028985512" y="251.78571428571428"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="e49-J7-oUN">
@@ -156,6 +116,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="3Ae-Zw-TcZ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G76-Xa-cdm">
                                 <rect key="frame" x="31" y="66" width="25" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -171,25 +135,14 @@
                                 <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Oval" translatesAutoresizingMaskIntoConstraints="NO" id="g7Q-SD-7Sw">
-                                <rect key="frame" x="155" y="129" width="104" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="userName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AHM-df-sIV">
-                                <rect key="frame" x="131" y="241" width="152" height="42"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HuskyLover" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AHM-df-sIV">
+                                <rect key="frame" x="131" y="241" width="179" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="RoundedMplus1c-Black" family="Rounded Mplus 1c" pointSize="30"/>
                                 <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@userTwitterHandle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1LO-7P-T6d">
-                                <rect key="frame" x="139" y="291" width="137" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RoundedMplus1c-Medium" family="Rounded Mplus 1c" pointSize="14"/>
-                                <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="laJ-D4-zfu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="laJ-D4-zfu">
                                 <rect key="frame" x="198" y="350" width="19" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="RoundedMplus1c-Regular" family="Rounded Mplus 1c" pointSize="30"/>
@@ -226,12 +179,20 @@ when you inivte a friend</string>
                                 <state key="normal" backgroundImage="Logout Button"/>
                                 <connections>
                                     <action selector="logoutTapped:" destination="GJS-xc-toQ" eventType="touchUpInside" id="mtD-4U-awf"/>
+                                    <segue destination="MO9-gb-lP4" kind="show" id="zrK-IJ-0kH"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="Okk-Bo-rKQ">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="husky" translatesAutoresizingMaskIntoConstraints="NO" id="Uhh-XG-bSm">
+                                <rect key="frame" x="117" y="136" width="181" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@HuskyLover" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1LO-7P-T6d">
+                                <rect key="frame" x="131" y="291" width="88" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RoundedMplus1c-Medium" family="Rounded Mplus 1c" pointSize="14"/>
+                                <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="0IR-MW-5z7"/>
@@ -244,7 +205,7 @@ when you inivte a friend</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mmq-QS-4dk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1794" y="-238"/>
+            <point key="canvasLocation" x="1792.753623188406" y="-238.39285714285714"/>
         </scene>
         <!--Dashboard View Controller-->
         <scene sceneID="cCb-Aj-Ldu">
@@ -363,7 +324,7 @@ when you inivte a friend</string>
                                 <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Asj-lk-s8E">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Asj-lk-s8E">
                                 <rect key="frame" x="194" y="586" width="27" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="RoundedMplus1c-Black" family="Rounded Mplus 1c" pointSize="40"/>
@@ -378,15 +339,6 @@ when you inivte a friend</string>
                                 <connections>
                                     <action selector="settingsTapped:" destination="0qd-gr-mTw" eventType="touchUpInside" id="VnM-M3-Rs9"/>
                                     <segue destination="bkO-rq-o6P" kind="show" id="y3t-ry-eQV"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Co4-L0-LNu" userLabel="Profile Button">
-                                <rect key="frame" x="20" y="44" width="56" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="Ellipse"/>
-                                <connections>
-                                    <action selector="profileTapped:" destination="0qd-gr-mTw" eventType="touchUpInside" id="xFd-I7-Zap"/>
-                                    <segue destination="GJS-xc-toQ" kind="show" id="Mna-HP-Vn7"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTY-kg-33w">
@@ -469,18 +421,25 @@ when you invite a friend</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cK-jm-Kqm">
+                                <rect key="frame" x="20" y="41" width="37" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="husky"/>
+                                <connections>
+                                    <segue destination="GJS-xc-toQ" kind="show" id="7XU-gt-p8i"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="XnQ-Nv-5pp"/>
                     </view>
                     <connections>
                         <outlet property="highscoreLabel" destination="Asj-lk-s8E" id="uKr-69-VIp"/>
-                        <outlet property="profileButton" destination="Co4-L0-LNu" id="bJI-zf-g6t"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0E5-Dx-JXw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="523" y="252"/>
+            <point key="canvasLocation" x="521.73913043478262" y="251.78571428571428"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="7Mi-ae-ja8">
@@ -548,7 +507,7 @@ when you invite a friend</string>
                                 <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SFX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7Z-wx-C9m">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SFX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="x7Z-wx-C9m">
                                 <rect key="frame" x="140" y="253" width="48" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="RoundedMplus1c-ExtraBold" family="Rounded Mplus 1c" pointSize="26"/>
@@ -659,7 +618,7 @@ when you invite a friend</string>
                                     <action selector="choice3Tapped:" destination="EHV-D5-ukY" eventType="touchUpInside" id="4dh-D5-z8R"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ldn-UD-0yX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ldn-UD-0yX">
                                 <rect key="frame" x="194" y="751" width="27" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="RoundedMplus1c-Black" family="Rounded Mplus 1c" pointSize="40"/>
@@ -673,49 +632,49 @@ when you invite a friend</string>
                                 <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UserName1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgV-pR-fbd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UserName1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hgV-pR-fbd">
                                 <rect key="frame" x="128" y="471" width="116" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="RoundedMplus1c-Black" family="Rounded Mplus 1c" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UserName2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJn-wP-syo">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UserName2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="XJn-wP-syo">
                                 <rect key="frame" x="128" y="559" width="116" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="RoundedMplus1c-Black" family="Rounded Mplus 1c" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UserName3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5B-FF-wxD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UserName3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="m5B-FF-wxD">
                                 <rect key="frame" x="128" y="642" width="116" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="RoundedMplus1c-Black" family="Rounded Mplus 1c" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@TwitterUserHandle1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLW-Eh-2IO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@TwitterUserHandle1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="OLW-Eh-2IO">
                                 <rect key="frame" x="128" y="499" width="166" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@TwitterUserHandle2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4e-hV-Enb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@TwitterUserHandle2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="p4e-hV-Enb">
                                 <rect key="frame" x="128" y="586" width="168" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@TwitterUserHandle3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9mX-zG-8zM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@TwitterUserHandle3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9mX-zG-8zM">
                                 <rect key="frame" x="128" y="668" width="169" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Twitter Post" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DB0-Ix-pL5">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Twitter Post" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DB0-Ix-pL5">
                                 <rect key="frame" x="37" y="165" width="341" height="156"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -750,7 +709,7 @@ when you invite a friend</string>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Heart" translatesAutoresizingMaskIntoConstraints="NO" id="axC-KA-GI3">
                                         <rect key="frame" x="0.0" y="0.0" width="13.5" height="25.5"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24.5k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Obx-aR-f4L">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24.5k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Obx-aR-f4L">
                                         <rect key="frame" x="21.5" y="0.0" width="52.5" height="25.5"/>
                                         <fontDescription key="fontDescription" name="RoundedMplus1c-ExtraBold" family="Rounded Mplus 1c" pointSize="18"/>
                                         <color key="textColor" red="0.39547649330000001" green="0.66301695120000004" blue="0.83993891430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -765,7 +724,7 @@ when you invite a friend</string>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="speech" translatesAutoresizingMaskIntoConstraints="NO" id="7K1-Aa-j0b">
                                         <rect key="frame" x="0.0" y="0.0" width="13.5" height="25.500000000000004"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.1k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ihv-Ws-pRb">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.1k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ihv-Ws-pRb">
                                         <rect key="frame" x="21.5" y="0.0" width="40.5" height="25.5"/>
                                         <fontDescription key="fontDescription" name="RoundedMplus1c-ExtraBold" family="Rounded Mplus 1c" pointSize="18"/>
                                         <color key="textColor" red="0.39547649328082196" green="0.66301695123698623" blue="0.83993891430684942" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -787,7 +746,7 @@ when you invite a friend</string>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="retweet" translatesAutoresizingMaskIntoConstraints="NO" id="Ooj-QG-3rl">
                                         <rect key="frame" x="0.0" y="0.0" width="16" height="25.5"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.3k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gB-Hk-wt4">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.3k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9gB-Hk-wt4">
                                         <rect key="frame" x="26" y="0.0" width="52.5" height="25.5"/>
                                         <fontDescription key="fontDescription" name="RoundedMplus1c-ExtraBold" family="Rounded Mplus 1c" pointSize="18"/>
                                         <color key="textColor" red="0.39547649330000001" green="0.66301695120000004" blue="0.83993891430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -795,12 +754,23 @@ when you invite a friend</string>
                                     </label>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Crr-Li-iAU">
+                                <rect key="frame" x="316" y="786" width="55" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Forward 2"/>
+                                <connections>
+                                    <action selector="nextQuestionTapped:" destination="EHV-D5-ukY" eventType="touchUpInside" id="gJi-Mh-41w"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qPI-hn-foA"/>
                     </view>
                     <connections>
                         <outlet property="catagoriesLabel" destination="tG7-49-JgI" id="BW0-Ay-Ffc"/>
+                        <outlet property="choiceButton1" destination="fzw-Cp-RH8" id="ksq-KK-uyG"/>
+                        <outlet property="choiceButton2" destination="hVA-br-7sf" id="VuF-i9-pDe"/>
+                        <outlet property="choiceButton3" destination="4NT-dn-Ppi" id="J7f-HV-tv3"/>
                         <outlet property="commentCountLabel" destination="Ihv-Ws-pRb" id="dfT-7Y-r1Z"/>
                         <outlet property="likeCountLabel" destination="Obx-aR-f4L" id="lS3-b4-vjE"/>
                         <outlet property="picture1Image" destination="th0-XQ-zlu" id="8DS-Au-H5h"/>
@@ -820,7 +790,7 @@ when you invite a friend</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YA1-iT-YwP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3155" y="222"/>
+            <point key="canvasLocation" x="3153.6231884057975" y="221.65178571428569"/>
         </scene>
         <!--Game Over View Controller-->
         <scene sceneID="2Ci-av-13P">
@@ -866,7 +836,7 @@ when you invite a friend</string>
                                 <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePM-MM-QwP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePM-MM-QwP">
                                 <rect key="frame" x="191" y="347" width="30" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="RoundedMplus1c-ExtraBold" family="Rounded Mplus 1c" pointSize="45"/>
@@ -949,97 +919,19 @@ for you?</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QeR-bm-k8T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4057.971014492754" y="221.65178571428569"/>
-        </scene>
-        <!--Guess Who-->
-        <scene sceneID="tdT-e5-BRn">
-            <objects>
-                <viewController id="Awv-OJ-0Jf" customClass="EmailViewController" customModule="GuessWho" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kyW-Xf-bm1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter your email address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yc-SC-ebU">
-                                <rect key="frame" x="86" y="121" width="243" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RoundedMplus1c-Bold" family="Rounded Mplus 1c" pointSize="20"/>
-                                <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Login Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="Tg1-Qx-TeS">
-                                <rect key="frame" x="0.0" y="-57" width="414" height="206"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Guess Who" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jK-IS-zTL">
-                                <rect key="frame" x="139" y="44" width="137" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RoundedMplus1c-Black" family="Rounded Mplus 1c" pointSize="25"/>
-                                <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZf-ju-xzQ">
-                                <rect key="frame" x="20" y="45" width="25" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="icons8-back-100 copy"/>
-                                <connections>
-                                    <segue destination="MO9-gb-lP4" kind="show" id="FbL-An-w4m"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEw-Sm-8UQ">
-                                <rect key="frame" x="364" y="41" width="30" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RoundedMplus1c-Regular" family="Rounded Mplus 1c" pointSize="20"/>
-                                <state key="normal" title="OK">
-                                    <color key="titleColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="0qd-gr-mTw" kind="show" id="dLq-27-gD9"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iz6-Xa-RMg">
-                                <rect key="frame" x="51" y="157" width="312" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u6T-Wc-IVs">
-                                <rect key="frame" x="51" y="229" width="312" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
-                        <color key="backgroundColor" red="0.2627450980392157" green="0.2627450980392157" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <viewLayoutGuide key="safeArea" id="AWq-XA-Y9y"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Guess Who" id="hqh-qg-aiy">
-                        <rightBarButtonItems>
-                            <barButtonItem id="Fpb-Q2-yIz"/>
-                            <barButtonItem title="OK" id="Nfy-hq-pKf"/>
-                        </rightBarButtonItems>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="emailTextField" destination="iz6-Xa-RMg" id="QLi-qg-1Tt"/>
-                        <outlet property="passwordTextField" destination="u6T-Wc-IVs" id="HBH-GB-5zF"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LNb-m7-lp2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-297" y="252"/>
+            <point key="canvasLocation" x="4043" y="222"/>
         </scene>
     </scenes>
     <resources>
         <image name="Blue Catagory" width="319" height="72"/>
-        <image name="Ellipse" width="56" height="56"/>
+        <image name="Forward 2" width="166.66667175292969" height="303"/>
         <image name="Green Catagory" width="319" height="72"/>
         <image name="Green Catagory-1" width="319" height="72"/>
         <image name="Heart" width="13.333333015441895" height="12.333333015441895"/>
         <image name="Invite Button Purple" width="231.33332824707031" height="52"/>
         <image name="Invite Friends Button" width="166.66667175292969" height="38.666667938232422"/>
         <image name="Lock" width="12" height="14.666666984558105"/>
-        <image name="Login Rectangle" width="138" height="32"/>
+        <image name="Log In" width="166.66667175292969" height="40.666667938232422"/>
         <image name="Logout Button" width="166.66667175292969" height="38.666667938232422"/>
         <image name="Main Game Rectangle" width="341" height="77"/>
         <image name="More Catagories" width="169" height="38"/>
@@ -1051,11 +943,12 @@ for you?</string>
         <image name="Settings" width="29.333333969116211" height="29.666666030883789"/>
         <image name="Settings Buttons" width="275" height="71"/>
         <image name="Sound" width="24.333333969116211" height="21"/>
-        <image name="Twitter Rectangle" width="345" height="179"/>
         <image name="Twitter Rectangle Catagories" width="341" height="229"/>
         <image name="close_24px" width="18" height="18"/>
+        <image name="husky" width="166.66667175292969" height="204.66667175292969"/>
         <image name="icons8-back-100 copy" width="166.66667175292969" height="271"/>
         <image name="people 2" width="88" height="82"/>
+        <image name="register" width="500" height="122"/>
         <image name="retweet" width="16" height="9.3333330154418945"/>
         <image name="speech" width="13.333333015441895" height="14.333333015441895"/>
         <image name="twitter - white" width="34.666667938232422" height="29.333333969116211"/>

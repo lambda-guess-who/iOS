@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E81C2FAE22F3565900490BE6 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81C2FAD22F3565900490BE6 /* Question.swift */; };
+		E81C2FB122F3571C00490BE6 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81C2FB022F3571C00490BE6 /* HTTPClient.swift */; };
+		E81C2FB422F3587200490BE6 /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81C2FB322F3587200490BE6 /* Authorization.swift */; };
+		E89F52E122F3A92E0066F330 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89F52E022F3A92E0066F330 /* Score.swift */; };
+		E89F52E222F4A2B40066F330 /* RoundedMplus1c-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E85D3A9122EFBBBA0072E286 /* RoundedMplus1c-Regular.ttf */; };
+		E89F52E322F4A2B90066F330 /* RoundedMplus1c-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E85D3A9422EFBBFB0072E286 /* RoundedMplus1c-Thin.ttf */; };
+		E89F52E422F4A2BD0066F330 /* RoundedMplus1c2-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E85D3A9222EFBBBA0072E286 /* RoundedMplus1c2-ExtraBold.ttf */; };
+		E89F52E522F4A2BF0066F330 /* RoundedMplus1c-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E85D3A8F22EFBBBA0072E286 /* RoundedMplus1c-Medium.ttf */; };
+		E89F52E622F4A2C20066F330 /* RoundedMplus1c-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E85D3A9522EFBC0A0072E286 /* RoundedMplus1c-Black.ttf */; };
+		E89F52E722F4A2C50066F330 /* RoundedMplus1c-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E85D3A9322EFBBBB0072E286 /* RoundedMplus1c-Light.ttf */; };
+		E89F52E822F4A2C80066F330 /* RoundedMplus1c-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E85D3A9022EFBBBA0072E286 /* RoundedMplus1c-Bold.ttf */; };
 		E8B36BA222EF64D7002BCCE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B36BA122EF64D7002BCCE8 /* AppDelegate.swift */; };
 		E8B36BA722EF64D7002BCCE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B36BA522EF64D7002BCCE8 /* Main.storyboard */; };
 		E8B36BA922EF64D8002BCCE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B36BA822EF64D8002BCCE8 /* Assets.xcassets */; };
 		E8B36BAC22EF64D8002BCCE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B36BAA22EF64D8002BCCE8 /* LaunchScreen.storyboard */; };
 		E8DF2F3222F100FB00C868B7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF2F3122F100FB00C868B7 /* LoginViewController.swift */; };
-		E8DF2F3422F1014400C868B7 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF2F3322F1014400C868B7 /* EmailViewController.swift */; };
 		E8DF2F3822F101A000C868B7 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF2F3722F101A000C868B7 /* DashboardViewController.swift */; };
 		E8DF2F3A22F101D200C868B7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF2F3922F101D200C868B7 /* SettingsViewController.swift */; };
 		E8DF2F3C22F1020000C868B7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF2F3B22F1020000C868B7 /* ProfileViewController.swift */; };
@@ -21,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E81C2FAD22F3565900490BE6 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Question.swift; path = ../../../../../../../../Downloads/Question.swift; sourceTree = "<group>"; };
+		E81C2FB022F3571C00490BE6 /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPClient.swift; path = ../../../../../../../../Downloads/HTTPClient.swift; sourceTree = "<group>"; };
+		E81C2FB322F3587200490BE6 /* Authorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Authorization.swift; path = ../../../../../../../../Downloads/Authorization.swift; sourceTree = "<group>"; };
 		E85D3A8F22EFBBBA0072E286 /* RoundedMplus1c-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoundedMplus1c-Medium.ttf"; sourceTree = "<group>"; };
 		E85D3A9022EFBBBA0072E286 /* RoundedMplus1c-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoundedMplus1c-Bold.ttf"; sourceTree = "<group>"; };
 		E85D3A9122EFBBBA0072E286 /* RoundedMplus1c-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoundedMplus1c-Regular.ttf"; sourceTree = "<group>"; };
@@ -28,6 +41,7 @@
 		E85D3A9322EFBBBB0072E286 /* RoundedMplus1c-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoundedMplus1c-Light.ttf"; sourceTree = "<group>"; };
 		E85D3A9422EFBBFB0072E286 /* RoundedMplus1c-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RoundedMplus1c-Thin.ttf"; path = "../../../../../../../../Downloads/Rounded-Mplus-1c/roundedmplus1c/RoundedMplus1c-Thin.ttf"; sourceTree = "<group>"; };
 		E85D3A9522EFBC0A0072E286 /* RoundedMplus1c-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RoundedMplus1c-Black.ttf"; path = "../../../../../../../../Downloads/Rounded-Mplus-1c/roundedmplus1c/RoundedMplus1c-Black.ttf"; sourceTree = "<group>"; };
+		E89F52E022F3A92E0066F330 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 		E8B36B9E22EF64D7002BCCE8 /* GuessWho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessWho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B36BA122EF64D7002BCCE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8B36BA622EF64D7002BCCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,7 +49,6 @@
 		E8B36BAB22EF64D8002BCCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8B36BAD22EF64D8002BCCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8DF2F3122F100FB00C868B7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		E8DF2F3322F1014400C868B7 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		E8DF2F3722F101A000C868B7 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		E8DF2F3922F101D200C868B7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E8DF2F3B22F1020000C868B7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +67,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E81C2FAC22F3563900490BE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E81C2FAD22F3565900490BE6 /* Question.swift */,
+				E89F52E022F3A92E0066F330 /* Score.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E81C2FAF22F356F900490BE6 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				E81C2FB022F3571C00490BE6 /* HTTPClient.swift */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		E81C2FB222F3582D00490BE6 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				E81C2FB322F3587200490BE6 /* Authorization.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
 		E85D3A8822EFA2070072E286 /* Recources */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +136,9 @@
 			isa = PBXGroup;
 			children = (
 				E8B36BA122EF64D7002BCCE8 /* AppDelegate.swift */,
+				E81C2FAC22F3563900490BE6 /* Model */,
+				E81C2FAF22F356F900490BE6 /* HTTP */,
+				E81C2FB222F3582D00490BE6 /* Authorization */,
 				E8DF2F3022F100D600C868B7 /* View Controllers */,
 				E85D3A8822EFA2070072E286 /* Recources */,
 				E8B36BAD22EF64D8002BCCE8 /* Info.plist */,
@@ -110,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				E8DF2F3122F100FB00C868B7 /* LoginViewController.swift */,
-				E8DF2F3322F1014400C868B7 /* EmailViewController.swift */,
 				E8DF2F3722F101A000C868B7 /* DashboardViewController.swift */,
 				E8DF2F3B22F1020000C868B7 /* ProfileViewController.swift */,
 				E8DF2F3922F101D200C868B7 /* SettingsViewController.swift */,
@@ -178,9 +218,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E89F52E522F4A2BF0066F330 /* RoundedMplus1c-Medium.ttf in Resources */,
+				E89F52E822F4A2C80066F330 /* RoundedMplus1c-Bold.ttf in Resources */,
+				E89F52E322F4A2B90066F330 /* RoundedMplus1c-Thin.ttf in Resources */,
 				E8B36BAC22EF64D8002BCCE8 /* LaunchScreen.storyboard in Resources */,
 				E8B36BA922EF64D8002BCCE8 /* Assets.xcassets in Resources */,
+				E89F52E622F4A2C20066F330 /* RoundedMplus1c-Black.ttf in Resources */,
+				E89F52E722F4A2C50066F330 /* RoundedMplus1c-Light.ttf in Resources */,
 				E8B36BA722EF64D7002BCCE8 /* Main.storyboard in Resources */,
+				E89F52E222F4A2B40066F330 /* RoundedMplus1c-Regular.ttf in Resources */,
+				E89F52E422F4A2BD0066F330 /* RoundedMplus1c2-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,11 +240,14 @@
 			files = (
 				E8DF2F3222F100FB00C868B7 /* LoginViewController.swift in Sources */,
 				E8DF2F3822F101A000C868B7 /* DashboardViewController.swift in Sources */,
-				E8DF2F3422F1014400C868B7 /* EmailViewController.swift in Sources */,
+				E81C2FAE22F3565900490BE6 /* Question.swift in Sources */,
+				E81C2FB422F3587200490BE6 /* Authorization.swift in Sources */,
 				E8DF2F3C22F1020000C868B7 /* ProfileViewController.swift in Sources */,
 				E8DF2F4022F24BD400C868B7 /* GameOverViewController.swift in Sources */,
+				E81C2FB122F3571C00490BE6 /* HTTPClient.swift in Sources */,
 				E8DF2F3E22F1FF9C00C868B7 /* MainGameViewController.swift in Sources */,
 				E8B36BA222EF64D7002BCCE8 /* AppDelegate.swift in Sources */,
+				E89F52E122F3A92E0066F330 /* Score.swift in Sources */,
 				E8DF2F3A22F101D200C868B7 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

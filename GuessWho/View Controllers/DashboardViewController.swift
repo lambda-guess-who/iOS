@@ -20,6 +20,7 @@ class DashboardViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func presidentialCandidatesTapped(_ sender: Any) {
+        
     }
     
     @IBAction func ventureCapitalistTapped(_ sender: Any) {
